@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class CarritoTest {
 	Articulo birome = new Articulo(40, "limpieza");
-	Articulo cuaderno = new Articulo(80, "limpieza");
+	Articulo cuaderno = new Articulo(80, "libreria");
 	Carrito carrito1 = new Carrito();
 	Descuento productoDesc1 = new Descuento(birome, 5.0);
 	Pack paquete1 = new Pack (800);
