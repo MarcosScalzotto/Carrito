@@ -2,9 +2,9 @@ package ar.edu.unlam.tallerweb.carrito;
 
 public class Descuento extends Comprable {
 	private Articulo articulo;
-	double descuento;
+	private double descuento;
 
-	public Descuento (Articulo articulo,double descuento) {
+	public Descuento(Articulo articulo, double descuento) {
 		this.articulo = articulo;
 		this.descuento = descuento;
 	}
