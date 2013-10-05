@@ -26,7 +26,7 @@ public class Pack extends Comprable{
 		//compruebo si la lista esta vacia, sino lo esta, guardo su tipo para compararlo con los articulos nuevos
 		String tipo = null;
 		if (pack.isEmpty())
-			tipo = pack.get(0).getTipo();
+			tipo = a.getTipo();
 		if (a.getTipo() != tipo)
 			return false;
 		else
